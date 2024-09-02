@@ -5,7 +5,7 @@ export default function About() {
         <div>
         <h1 className={styles.about}>Sobre Nós</h1>
 
-        <h2>Informações de contato:
+        <h2 className={styles.texto}>Informações de contato:
             <br></br>
             Email: contato@email.com
             <br></br>

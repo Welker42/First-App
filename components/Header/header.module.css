@@ -1,10 +1,23 @@
-.header{
+.header {
     display: inline;
     text-align: center;
     gap: 20px;
-    color:rgb(red, green, blue);
-    border-color: blueviolet;
-    border-style: solid
+    color: white; /* Cor do texto sempre branca */
+    border-color: wheat;
+    border-style: solid;
+    transition: background-color 0.3s ease; /* Transição suave para a mudança de cor */
+    padding: 10px; /* Adicione algum padding para melhor visualização */
 }
 
+.header a {
+    color: blue; /* Garante que o texto dos links também seja branco */
+    text-decoration: none; /* Remove sublinhado dos links, se desejado */
+}
 
+.header:hover {
+    background-color: lightblue; /* Cor de fundo quando o mouse passa sobre o cabeçalho */
+}
+
+.header.clicked {
+    background-color: aqua; /* Cor de fundo quando clicado */
+}
