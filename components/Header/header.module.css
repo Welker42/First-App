@@ -1,0 +1,10 @@
+.header{
+    display: inline;
+    text-align: center;
+    gap: 20px;
+    color:rgb(red, green, blue);
+    border-color: blueviolet;
+    border-style: solid
+}
+
+

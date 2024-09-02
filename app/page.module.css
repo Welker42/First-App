@@ -1,0 +1,47 @@
+.title {
+  color: white;
+  height: 15vh;
+  text-align: center;
+}
+
+
+
+.Wallpaper {
+    position: absolute; /* Permite que o GIF fique em segundo plano */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz com que o GIF cubra a área inteira do contêiner */
+    z-index: -1; /* Garante que o GIF fique atrás do conteúdo */
+}
+
+.Subtitle {
+    font-size: 1.5rem;
+    color: #666;
+    text-align: center;
+}
+
+.ImageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.ImageItem {
+    width: 200px;
+    text-align: center;
+}
+
+.Image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover; /* Ajusta a imagem para preencher o contêiner */
+}
+
+.texto { 
+  color: white;
+  text-align: center;
+}
